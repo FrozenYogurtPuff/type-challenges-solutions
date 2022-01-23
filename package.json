@@ -1,0 +1,11 @@
+{
+  "name": "type-challenges-solutions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:FrozenYogurtPuff/type-challenges-solutions.git",
+  "author": "FrozenYogurtPuff <frozenyogurtpuff@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
+}
