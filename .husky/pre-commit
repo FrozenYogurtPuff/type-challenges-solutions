@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+cd questions/ || exit
+find . -name '*.js' -delete
+find . -name '*.js.map' -delete
