@@ -1,2 +1,4 @@
 node_modules
 .idea
+questions/**/*.js
+questions/**/*.js.map
