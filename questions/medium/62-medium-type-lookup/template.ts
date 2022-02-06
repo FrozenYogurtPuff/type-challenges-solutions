@@ -5,3 +5,7 @@ type LookUp<Union, Type extends string> =
             Union
         : never
     : never
+
+// for short
+type LookUp<Union, Type extends string> =
+    Union extends { type: Type } ? Union : never
