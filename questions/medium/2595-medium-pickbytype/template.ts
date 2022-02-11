@@ -1,7 +1,7 @@
 // Key Remapping
-type PickByType<T, U> = {
-    [Key in keyof T as T[Key] extends U ? Key : never]: T[Key]
-}
+// type PickByType<T, U> = {
+//     [Key in keyof T as T[Key] extends U ? Key : never]: T[Key]
+// }
 
 // External Filter
 // https://github.com/type-challenges/type-challenges/issues/2603
